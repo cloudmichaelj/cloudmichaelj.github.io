@@ -337,6 +337,46 @@ Symbolic expression is particularly good at displaying calculations and stating 
 Ordinary prose, on the other hand, helps one orient and motivate readers, bring out hidden structure, connect results to intuition, and communicate meaning in general.
 </p>
 
+<h4>English Negation with Symbolic Assistance</h4>
+
+<p>
+To negate statements properly in ME, one may temporarily pass to symbolic form, negate the symbolic statement, and then express the result in English.
+For example:
+</p>
+
+<ol>
+ <li>
+   <p>
+     <strong>Definition of uniform continuity.</strong>
+     Let <em>A</em> be a subset of the real numbers, and let <em>f</em> be a function defined on <em>A</em>.
+     The function <em>f</em> is uniformly continuous on <em>A</em> iff for every positive number &epsilon;, there exists a positive number &delta; such that for all points <em>x</em> and <em>y</em> in <em>A</em>, if |<em>x</em> &minus; <em>y</em>| &lt; &delta;, then |<em>f</em>(<em>x</em>) &minus; <em>f</em>(<em>y</em>)| &lt; &epsilon;.
+   </p>
+ </li>
+ <li>
+   <p>
+     <strong>The definition in symbolic form.</strong> 
+     &forall; &epsilon; &gt; 0, &exist; &delta; &gt; 0 s.t. &forall; <em>x</em>, <em>y</em> ∊ <em>A</em>, |<em>x</em> &minus; <em>y</em>| &lt; &delta; ⇒ |<em>f</em>(<em>x</em>) &minus; <em>f</em>(<em>y</em>)| &lt; &epsilon;.
+   </p>
+ </li>
+ <li>
+   <p>
+     <strong>The symbolic form negated.</strong>
+     &exist; &epsilon; &gt; 0 s.t. &forall; &delta; &gt; 0, &exist; <em>x</em>, <em>y</em> ∊ <em>A</em> s.t. |<em>x</em> &minus; <em>y</em>| &lt; &delta; &and; |<em>f</em>(<em>x</em>) &minus; <em>f</em>(<em>y</em>)| &ge; &epsilon;.
+   </p>
+ </li>
+ <li>
+   <p>
+     <strong>Negation of uniform continuity.</strong>
+     The function <em>f</em> is not uniformly continuous on <em>A</em> iff there exists a positive number &epsilon; such that, for every positive number &delta;, there are points <em>x</em> and <em>y</em> in <em>A</em> satisfying |<em>x</em> &minus; <em>y</em>| &lt; &delta; and |<em>f</em>(<em>x</em>) &minus; <em>f</em>(<em>y</em>)| &ge; &epsilon;.
+   </p>
+ </li>
+</ol>
+
+<p>
+This process further illustrates how symbols and standard English can work together in ME.
+</p>
+
+
 <h3>Prominence of Subordination</h3>
 
 <p>
@@ -1122,7 +1162,7 @@ It also includes terms for relationships between mathematical structures, such a
 Other important and highly abstract terms include <em>existence</em>, <em>necessity</em>, <em>consistency</em>, <em>independence</em>, and <em>decidability</em>.
 </p>
 
-<h3>The Overloaded Noun “Transformation”</h3>
+<h4>The Overloaded Noun “Transformation”</h4>
 
 <p>
 In ME, this extremely common term is used at several levels.
